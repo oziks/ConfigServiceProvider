@@ -1,0 +1,24 @@
+{
+    "name": "oziks/config-service-provider",
+    "type": "library",
+    "description": "Config service provider for Silex.",
+    "keywords": ["silex", "config", "yaml"],
+    "homepage": "https://github.com/oziks/ConfigServiceProvider",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Morgan Brunot",
+            "email": "brunot.morgan@gmail.com",
+            "homepage": "http://oziks.fr"
+        }
+    ],
+    "require": {
+        "symfony/yaml": "~2.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "Oziks": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
